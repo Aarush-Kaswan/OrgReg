@@ -1,0 +1,53 @@
+
+.header {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    /* padding: 0px 80px 0px 80px; */
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(198, 193, 193);
+    border-style: none none solid none;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+}
+
+.dashboard {
+    font-weight: 700;
+    font-size: 150%;
+    color: white;
+    text-decoration: none;
+}
+
+.addOrgButton, .logOutButton {
+    padding: 20px;
+    border-width: 3px;
+    border-radius: 12px;
+    font-weight: 700;
+    background-color: #f4f4f4;
+}
+.addOrgButton:hover {
+    background-color: greenyellow;
+}
+.logOutButton {
+    margin-left: 2%;
+}
+.logOutButton:hover {
+    background-color: red;
+    color: white;
+}
+
+.addOrgButton:hover, .logOutButton:hover {
+    box-shadow: 2px 2px 5px black; 
+}

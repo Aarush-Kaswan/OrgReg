@@ -1,0 +1,46 @@
+.form {
+    width: 30%;
+    /* height: 50%; */
+    justify-content: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    border: 5px solid #f1f1f1;
+    margin: 5% 30%;
+    padding: 5% 5%;
+}
+
+.heading {
+    margin-bottom: 5%;
+}
+
+hr {
+    margin-bottom: 2%;
+}
+
+.userLabel, .passLabel {
+    padding: 0;
+    margin: 0;
+    float: left;
+    font-size: medium;
+}
+
+.username, .password {
+    width: 100%;
+    padding: 16px 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.loginButton {
+    background-color: #8ebf42;
+    color: white;
+    padding: 14px 0;
+    margin: 10px 0;
+    border: none;
+    cursor: grabbing;
+    width: 100%;
+}
+.loginButton:hover {
+    opacity: 0.8;
+}

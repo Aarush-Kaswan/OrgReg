@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+}
+
+.searchBar {
+    margin: 50px 100px 0px 100px;
+    /* background-color: yellowgreen; */
+    /* height: 30px; */
+}
+
+.searchInput {
+    width: 30%;
+    text-align: left;
+    border: none;
+}
+
+.bi-search {
+    /* border: 1px solid black; */
+    padding: 5px;
+}
+
+.table {
+    margin: 20px 100px 100px 100px;
+    border: solid 3px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.caption {
+    border: solid 3px;
+    border-bottom: 0px;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;    
+    font-weight: 700;
+    font-size: 150%;
+}
+
+th,td {
+    border: solid 1px;
+    padding: 20px;
+}
+
+tr:hover {
+    background-color: #f4f4f4;
+}
+
+.view, .modify, .delete {
+    padding: 5px;
+    margin: 5px;
+}
+
+.view {
+    background-color: greenyellow;
+}
+
+.modify {
+    background-color: rgb(56, 205, 255);
+}
+
+.delete {
+    background-color: #e73e33;
+    color: white;
+}
+
+.view:hover, .modify:hover, .delete:hover {
+    font-weight: bolder;
+    box-shadow: 2px 2px 5px black; 
+}
+
+.errorMsg {
+    position: absolute;
+    width: 20%;
+    padding: 20px;
+    margin: 0% 40%;
+    margin-top: 3%;
+    float: center;
+    border: 1px solid black;
+    color: white;
+    background-color: red;
+}
+
+.successMsg{
+    position: absolute;
+    width: 20%;
+    padding: 20px;
+    margin: 0% 40%;
+    margin-top: 3%;
+    float: center;
+    border: 1px solid black;
+    color: white;
+    background-color: greenyellow;
+}

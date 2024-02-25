@@ -1,0 +1,98 @@
+body, div, form, input, select, p { 
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 400;
+    color: grey;
+}
+h3 {
+    margin: 12px 0;
+    color: grey;
+}
+.viewOrg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+form {
+    width: 80%;
+    padding: 20px;
+}
+fieldset {
+    border: none;
+    border-top: 1px solid grey;
+    /* border-top: 1px solid #8ebf42; */
+    /* text-align: left; */
+}
+.account-details, .personal-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.account-details >div, .personal-details >div >div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.account-details >div, .personal-details >div, input, label {
+    width: 100%;
+}
+label {
+    padding: 0 50px;
+    text-align: left;
+    vertical-align: middle;
+}
+input {
+    padding: 5px;
+    vertical-align: middle;
+}
+
+@media (min-width: 568px) {
+    /* .account-details >div, .personal-details >div {
+    width: 50%;
+    } */
+    label {
+        margin-left: 25%;
+        width: 10%;
+    }
+    input {
+        width: 25%;
+    }
+    /* select, .children, .gender, .bdate-block {
+    width: calc(60% + 16px);
+    } */
+}
+
+.modifyButton, .deleteButton {
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px; 
+    border: none;
+    background: grey; 
+    /* background: #8ebf42;  */
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+.modifyButton:hover, .deleteButton:hover {
+    font-weight: bolder;
+    box-shadow: 2px 2px 5px;
+    color: black;
+}
+.modifyButton {
+    background-color: rgb(56, 205, 255);
+}
+
+.deleteButton {
+    background-color: #e73e33;
+    color: white;
+} 
